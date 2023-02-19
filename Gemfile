@@ -6,4 +6,5 @@ gem "sqlite3"
 group :development, :test do
   gem "ruby_audit"
   gem "spektr"
+  gem 'simplecov', require: false
 end
